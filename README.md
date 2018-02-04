@@ -2,7 +2,8 @@
 Simple snake with canvas &amp; javascript (no librairies) ES6
 
 # Purpose
-I never used canvas before, and I wanted to start with a snake as a first game using canvas and javascript
+I started building a snake with only html (divs) and javascript for fun,
+But then I realised that I never used canvas before, so I converted my first html snake using canvas and javascript
 Of course it's not perfect at all, but I will continue to improving it and make it mobile friendly
 
 # TODO
