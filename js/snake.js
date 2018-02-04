@@ -278,6 +278,7 @@ class Snake {
         this.initGame();
     }
 }
+
 (function() {
     var snake = new Snake('game', 70, 200, 10);
 })();
