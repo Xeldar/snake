@@ -229,8 +229,7 @@ class Snake {
             newPosX,
             playAgain,
             statut,
-            points,
-            checkSnake = false;
+            points;
 
         switch (this.lastKey) {
             case 'right':
@@ -280,5 +279,5 @@ class Snake {
 }
 
 (function() {
-    var snake = new Snake('game', 70, 200, 10);
+    new Snake('game', 70, 200, 10);
 })();
