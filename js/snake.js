@@ -1,6 +1,7 @@
 "use strict";
 
 class Snake {
+
     constructor(id = 'game', speed = 80, canvasSize = 200, squareSize = 10) {
         this.id = id;
         this.speed = speed;
