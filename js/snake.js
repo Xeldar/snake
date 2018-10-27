@@ -182,6 +182,7 @@ class Snake {
         this.randomApple();
     }
 
+    // GENERATE RANDOM APPLE
     randomApple() {
         let isOnSnake = true,
             halfSquare = this.squareSize / 2,
@@ -226,6 +227,7 @@ class Snake {
         return Math.random() * (max - min) + min;
     }
 
+    // CHECK FOR END GAME
     checkEndGame() {
         let isSnaked = false,
             newPosY,
@@ -276,6 +278,7 @@ class Snake {
         return this.gameEnd;
     }
 
+    // TO PLAY AGAIN
     playAgain() {
         this.initGame();
     }
