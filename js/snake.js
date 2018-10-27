@@ -277,6 +277,7 @@ class Snake {
         return this.gameEnd;
     }
 
+    // TO PLAY AGAIN
     playAgain() {
         this.initGame();
     }
