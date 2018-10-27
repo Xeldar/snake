@@ -181,6 +181,7 @@ class Snake {
         this.randomApple();
     }
 
+    // GENERATE RANDOM APPLE
     randomApple() {
         let isOnSnake = true,
             halfSquare = this.squareSize / 2,
