@@ -18,7 +18,7 @@ class Snake {
             this.ctx = this.canvas.getContext('2d');
             this.initGame();
             let t = this;
-            setInterval(function() {
+            setInterval(function () {
                 t.moveSnake();
             }, this.speed);
         } else {
@@ -194,7 +194,7 @@ class Snake {
                 let randomNumTop = this.getRandomArbitrary(0, this.canvasSize - this.squareSize),
                     randomNumLeft = this.getRandomArbitrary(0, this.canvasSize - this.squareSize);
                 newTop = ((randomNumTop % this.squareSize) >= halfSquare ? parseInt(randomNumTop / this.squareSize) * this.squareSize + this.squareSize : parseInt(randomNumTop / this.squareSize) * this.squareSize),
-                newLeft = ((randomNumLeft % this.squareSize) >= halfSquare ? parseInt(randomNumLeft / this.squareSize) * this.squareSize + this.squareSize : parseInt(randomNumLeft / this.squareSize) * this.squareSize);
+                    newLeft = ((randomNumLeft % this.squareSize) >= halfSquare ? parseInt(randomNumLeft / this.squareSize) * this.squareSize + this.squareSize : parseInt(randomNumLeft / this.squareSize) * this.squareSize);
 
                 for (let i = 0; i <= this.snakeSize; i++) {
                     if (this.snake[i].y == newTop && this.snake[i].x == newLeft) {
@@ -280,6 +280,6 @@ class Snake {
     }
 }
 
-(function() {
+(function () {
     new Snake('game', 70, 200, 10);
 })();
