@@ -226,6 +226,7 @@ class Snake {
         return Math.random() * (max - min) + min;
     }
 
+    // CHECK FOR END GAME
     checkEndGame() {
         let isSnaked = false,
             newPosY,
