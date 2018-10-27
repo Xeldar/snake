@@ -223,6 +223,7 @@ class Snake {
         this.applePosY = newTop;
     }
 
+    // RANDOM NUM
     getRandomArbitrary(min, max) {
         return Math.random() * (max - min) + min;
     }
